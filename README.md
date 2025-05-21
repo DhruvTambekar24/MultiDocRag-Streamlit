@@ -53,5 +53,31 @@ Each chunk carries metadata (filename, page, chunk ID), which is used in the ans
 - `pypdf`, `docx2txt`, `io` - Document loaders
 
 ---
+
+## 🖼️ Sample Usage Flow
+
+1. **Upload** multiple `.pdf`, `.docx`, or `.txt` files using the sidebar.
+2. Click **"Process Documents"** to extract and vectorize the content.
+3. Preview **2–3 extracted text chunks** for transparency and debugging.
+4. Start chatting with prompts like:
+   - _“What is the summary of the first document?”_
+   - _“What does document 2 say about AI?”_
+   - _“Compare views on sustainability across all documents”_
+5. View **inline citations** like:
+
+   > _"The company will achieve carbon neutrality by 2030_ **(ClimatePolicy.pdf, Page 5, Chunk 3)**"
+
+6. Click **Download Chat History** to save the full session as `.txt` or `.md`.
+
+---
+
+## 📌 Notes & Tips
+
+- ✅ **Recommended chunk size:** Keep it around **800–1000** for best performance.
+- 🧽 **Clean documents work best:** Use **text-based PDFs** or properly **OCR-processed** files.
+- 🚫 **API quota issues?** Errors are shown in red with helpful debugging messages.
+- 📝 **Answers are Markdown-formatted:** Responses support formatting like headings, bullet points, bold, and italics for better clarity.
+
+---
  Made with ❤️ by **Dhruv Tambekar**
 
