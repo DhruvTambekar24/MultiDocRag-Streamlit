@@ -52,6 +52,6 @@ Each chunk carries metadata (filename, page, chunk ID), which is used in the ans
 - [HuggingFace Embeddings](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)
 - `pypdf`, `docx2txt`, `io` - Document loaders
 
-  ---
+---
  Made with ❤️ by **Dhruv Tambekar**
 
